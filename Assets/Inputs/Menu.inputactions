@@ -1,0 +1,46 @@
+{
+    "name": "Menu",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "5b6457cd-24ab-41d3-9813-4d6e29bf2cf3",
+            "actions": [
+                {
+                    "name": "Turn On/Off",
+                    "type": "Button",
+                    "id": "2fc2b5dc-47ca-4b7f-ae6f-440487f1d7e4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "befe593f-3a17-4c7c-b062-2cdf334270d9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Turn On/Off",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
